@@ -13,7 +13,7 @@ class Solution {
         return false;
     }
 
-    private boolean dfs(char[][] board, String word, int index, int i, int j, boolean[][] visited) {
+    public boolean dfs(char[][] board, String word, int index, int i, int j, boolean[][] visited) {
         if (index == word.length()) {
             return true;
         }
